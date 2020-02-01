@@ -1,2 +1,2 @@
 # WifiPhisher
-Wifi phishing through Captive Portal login + DNS Server
+ESP8266 Wifi phishing through Captive Portal login + DNS Server
